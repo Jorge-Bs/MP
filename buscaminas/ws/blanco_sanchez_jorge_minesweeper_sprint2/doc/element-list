@@ -1,0 +1,8 @@
+uo.mp.minesweeper
+uo.mp.minesweeper.game
+uo.mp.minesweeper.game.actions
+uo.mp.minesweeper.game.model.actions.blowup
+uo.mp.minesweeper.game.model.actions.clear
+uo.mp.minesweeper.game.model.board
+uo.mp.minesweeper.game.model.square
+uo.mp.minesweeper.game.model.util

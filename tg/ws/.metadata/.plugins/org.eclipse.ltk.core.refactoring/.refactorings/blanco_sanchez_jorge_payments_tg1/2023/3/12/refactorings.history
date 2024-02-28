@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;uo.mp.tg1.payments.model.CreditCar.java&apos; to &apos;CreditCard.java&apos;&#x0D;&#x0A;- Original project: &apos;payments_students&apos;&#x0D;&#x0A;- Original element: &apos;uo.mp.tg1.payments.model.CreditCar.java&apos;&#x0D;&#x0A;- Renamed element: &apos;uo.mp.tg1.payments.model.CreditCard.java&apos;" description="Rename compilation unit &apos;CreditCar.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;uo.mp.tg1.payments.model{CreditCar.java" name="CreditCard.java" references="false" stamp="1679432279120" version="1.0"/>
+</session>

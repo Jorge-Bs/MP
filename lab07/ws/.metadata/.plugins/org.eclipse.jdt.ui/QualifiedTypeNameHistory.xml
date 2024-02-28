@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="uo.mp2223.util.collections.List"/>
+    <fullyQualifiedTypeName name="uo.mp2223.util.collections.impl.AbstractList"/>
+    <fullyQualifiedTypeName name="uo.mp2223.util.collections.impl.LinkedList.Node"/>
+    <fullyQualifiedTypeName name="uo.mp.lab.util.check.ArgumentChecks"/>
+</qualifiedTypeNameHistroy>

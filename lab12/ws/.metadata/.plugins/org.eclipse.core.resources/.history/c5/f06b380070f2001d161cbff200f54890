@@ -1,0 +1,55 @@
+package uo.mp.transaction.model;
+
+
+
+public class CurrentAcountTransaction extends Transaction{
+	
+	public static final double AMOUNT = 1000.0;
+	
+	private String clientType;
+
+	public CurrentAcountTransaction(String date, String number, double amount, String description,String type) {
+		super(date, number, amount, description);
+		setClientType(type);
+	}
+
+	@Override
+	public void validate() {
+		checkClientMoney();
+		checkIban();
+	}
+	
+	
+	/**
+	 * Comprueba que la cantidad gastada sea valida
+	 * 
+	 */
+	private void checkClientMoney() {
+			
+	}
+	
+	private void checkIban() {
+		
+	}
+
+	@Override
+	public String serialize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public void setClientType(String clientType) {
+		this.clientType=clientType;
+	}
+	
+	public String getClientType() {
+		return clientType;
+	}
+
+	@Override
+	public Transaction clone() {
+		return new CurrentAcountTransaction(getDate(), getNumber(), getAmount(), getDescription(), getClientType());
+	}
+	
+
+}

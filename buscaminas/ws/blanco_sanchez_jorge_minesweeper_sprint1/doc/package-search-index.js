@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"uo.mp.minesweeper.game.model.board"},{"l":"uo.mp.minesweeper.game.model.square"},{"l":"uo.mp.minesweeper.game.model.util"},{"l":"uo.mp.minesweeper.game.ui"}];updateSearchResults();

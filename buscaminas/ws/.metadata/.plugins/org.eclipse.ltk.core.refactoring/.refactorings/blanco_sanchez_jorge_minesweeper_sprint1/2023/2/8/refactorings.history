@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;uo.mp.minesweeper.game.ui.GameApp&apos; to &apos;Game&apos;&#x0D;&#x0A;- Original project: &apos;blanco_sanchez_jorge_minesweeper_sprint1&apos;&#x0D;&#x0A;- Original element: &apos;uo.mp.minesweeper.game.ui.GameApp&apos;&#x0D;&#x0A;- Renamed element: &apos;uo.mp.minesweeper.game.ui.Game&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GameApp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;uo.mp.minesweeper.game.ui{GameApp.java[GameApp" matchStrategy="1" name="Game" qualified="false" references="true" similarDeclarations="false" stamp="1677080167234" textual="false" version="1.0"/>
+</session>

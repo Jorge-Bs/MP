@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.exception.InvalidLineException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.aggregator.ArgumentAccessException"/>
+    <fullyQualifiedTypeName name="uo.mp.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.parsers.InvalidLineFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.io.PrintStream"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Magazine"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Frequency"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Order"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.Newsstand"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.parsers.PublicationParser"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Publication"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Newspaper"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="uo.mp2223.util.log.Logger"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.NewsstandException"/>
+</qualifiedTypeNameHistroy>

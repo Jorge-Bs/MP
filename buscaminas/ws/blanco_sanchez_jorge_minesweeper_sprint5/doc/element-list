@@ -1,0 +1,10 @@
+uo.mp.minesweeper.exception
+uo.mp.minesweeper.game
+uo.mp.minesweeper.game.square
+uo.mp.minesweeper.game.square.actions
+uo.mp.minesweeper.ranking
+uo.mp.minesweeper.ranking.utiles.files
+uo.mp.minesweeper.ranking.utiles.parse
+uo.mp.minesweeper.ranking.utiles.serializer
+uo.mp.minesweeper.ranking.utiles.sort
+uo.mp.minesweeper.session

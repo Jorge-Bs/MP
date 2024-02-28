@@ -1,0 +1,20 @@
+package uo.mp.tg1.payments.model;
+
+public class Cash extends Payments{
+
+	public Cash(String id,int amount) {
+		setId(id);
+		setAmount(amount);
+		setValid(INVALID);
+	}
+	
+	
+	/**
+	 * Valida el pago, cambia el valor del atributo
+	 * 
+	 */
+	public void valid() {
+		setValid(VALID);
+	}
+	
+}

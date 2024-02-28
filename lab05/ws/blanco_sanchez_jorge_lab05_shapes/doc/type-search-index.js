@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"uo.mp.lab05.shapes","l":"Circle"},{"p":"uo.mp.lab05.shapes","l":"Colour"},{"p":"uo.mp.lab05.shapes","l":"Rectangle"},{"p":"uo.mp.lab05.shapes","l":"Shapes"},{"p":"uo.mp.lab05.shapes","l":"Triangle"}];updateSearchResults();

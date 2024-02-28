@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.aggregator.ArgumentAccessException"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.util.zip.GZIPOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.util.zip.GZIPInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.serializers.PublicationSerializer"/>
+    <fullyQualifiedTypeName name="uo.mp2223.util.file.FileUtil"/>
+    <fullyQualifiedTypeName name="uo.mp2223.util.file.ZipFileUtil"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.parsers.PublicationParser"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="uo.mp2223.util.file.FileProccessor"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.Newsstand"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.sort.BySalesSorter"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.sort.ByQuantityAndName"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Order"/>
+    <fullyQualifiedTypeName name="uo.mp.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.service.NewsstandException"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Newspaper"/>
+    <fullyQualifiedTypeName name="uo.mp2223.newsstand.domain.Magazine"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+uo.mp.newsstand.service.newsstand
+uo.mp.newsstand.service.parsers.publicationparser
+uo.mp2223
+uo.mp2223.newsstand.domain
+uo.mp2223.newsstand.exception
+uo.mp2223.newsstand.service
+uo.mp2223.newsstand.service.parsers
+uo.mp2223.newsstand.service.serializers
+uo.mp2223.newsstand.ui
+uo.mp2223.util.file
+uo.mp2223.util.log

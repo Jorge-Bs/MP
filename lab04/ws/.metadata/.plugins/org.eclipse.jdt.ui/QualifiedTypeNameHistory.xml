@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="uo.mp.lab.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp.lab03.dome.model.Cd"/>
+    <fullyQualifiedTypeName name="uo.mp.lab03.dome.model.Dvd"/>
+    <fullyQualifiedTypeName name="uo.mp.lab03.dome.model.Videogame"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

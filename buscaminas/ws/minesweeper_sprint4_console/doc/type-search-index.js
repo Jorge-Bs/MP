@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"uo.mp.minesweeper.console","l":"ConsoleGameInteractor"},{"p":"uo.mp.minesweeper","l":"Main"}];updateSearchResults();

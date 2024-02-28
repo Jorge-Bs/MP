@@ -1,0 +1,5 @@
+package uo.mp.tg1.payments.model;
+
+public class Cash extends Payments{
+
+}

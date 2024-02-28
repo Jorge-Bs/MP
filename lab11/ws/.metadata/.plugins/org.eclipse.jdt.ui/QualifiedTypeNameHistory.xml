@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="uo.mp.util.file.ZipFileUtil"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.service.sort.ResultSorter"/>
+    <fullyQualifiedTypeName name="uo.mp.util.file.FileUtil"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.simulator.exception.InvalidQuestionException"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.simulator.exception.InvalidExamException"/>
+    <fullyQualifiedTypeName name="uo.mp.util.log.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="uo.mp.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.parser.QuestionParser"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.model.question.Question"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.model.question.ChoiceQuestion"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.model.question.GapQuestion"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.model.question.ValueQuestion"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.service.ExamMarker"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.model.StudentExam"/>
+    <fullyQualifiedTypeName name="uo.mp.lab11.marker.model.StudentMark"/>
+</qualifiedTypeNameHistroy>

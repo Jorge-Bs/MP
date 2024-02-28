@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"uo.mp.minesweeper.game.square","l":"Square"}];updateSearchResults();

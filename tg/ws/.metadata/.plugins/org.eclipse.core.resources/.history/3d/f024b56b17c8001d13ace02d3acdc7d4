@@ -1,0 +1,8 @@
+package uo.mp.tg1.payments.model;
+
+public class Payments {
+
+	private String id;
+	private double amount;
+	private boolean valid;
+}

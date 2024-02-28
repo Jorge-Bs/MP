@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"uo.mp.minesweeper"},{"l":"uo.mp.minesweeper.console"}];updateSearchResults();

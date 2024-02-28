@@ -1,0 +1,5 @@
+newspaper	El Mundo	4	10
+magazine	Hola	14	30	MONTHLY
+dossier	Diez Minutos	4	10	7
+
+newspaper	El Mundo	4k	10

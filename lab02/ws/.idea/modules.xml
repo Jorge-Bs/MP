@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blanco_sanchez_jorge_lab02_analyzer/blanco_sanchez_jorge_lab02_analyzer.iml" filepath="$PROJECT_DIR$/blanco_sanchez_jorge_lab02_analyzer/blanco_sanchez_jorge_lab02_analyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blanco_sanchez_jorge_lab02_task_game2048/blanco_sanchez_jorge_lab02_task_game2048.iml" filepath="$PROJECT_DIR$/blanco_sanchez_jorge_lab02_task_game2048/blanco_sanchez_jorge_lab02_task_game2048.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util23/util23.iml" filepath="$PROJECT_DIR$/util23/util23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ws.iml" filepath="$PROJECT_DIR$/.idea/ws.iml" />
+    </modules>
+  </component>
+</project>

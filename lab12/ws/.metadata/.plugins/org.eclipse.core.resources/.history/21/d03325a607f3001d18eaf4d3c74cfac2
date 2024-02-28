@@ -1,0 +1,38 @@
+Mon May 15 11:56:09 CEST 2023 java.lang.NumberFormatException: For input string: "10ds00"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:735)
+	at uo.mp.transaction.validator.parser.TransactionParser.toDouble(TransactionParser.java:61)
+	at uo.mp.transaction.validator.parser.TransactionParser.parseCredit(TransactionParser.java:68)
+	at uo.mp.transaction.validator.parser.TransactionParser.parseLine(TransactionParser.java:47)
+	at uo.mp.transaction.validator.parser.TransactionParser.parse(TransactionParser.java:26)
+	at uo.mp.transaction.validator.file.TransactionLoader.load(TransactionLoader.java:21)
+	at uo.mp.transaction.TransactionProcessor.process(TransactionProcessor.java:19)
+	at uo.mp.Main.process(Main.java:36)
+	at uo.mp.Main.run(Main.java:23)
+	at uo.mp.Main.main(Main.java:18)
+Mon May 15 11:59:38 CEST 2023 EL campo numerioc en linea: 2, es incorrecto
+Mon May 15 11:59:38 CEST 2023 Tipo de cuenta desconocido en linea: 
+Mon May 15 11:59:38 CEST 2023 Tipo de cuenta desconocido en linea: mc;2018/05/06;6011170166891283388;50;20;Valid
+Mon May 15 11:59:38 CEST 2023 Tipo de cuenta desconocido en linea: mc;2018/05/07;30236299989594;4a5;30;Valid
+Mon May 15 11:59:38 CEST 2023 Tipo de cuenta desconocido en linea: mc;2018/05/08;30562647088387;30;Valid
+Mon May 15 11:59:38 CEST 2023 Tipo de cuenta desconocido en linea: 
+Mon May 15 11:59:38 CEST 2023 EL campo numerioc en linea: 3, es incorrecto
+Mon May 15 11:59:38 CEST 2023 java.lang.IllegalArgumentException: Campos incorrectos
+	at uo.mp.util.check.ArgumentChecks.isTrue(ArgumentChecks.java:55)
+	at uo.mp.transaction.validator.parser.TransactionParser.parseAcount(TransactionParser.java:58)
+	at uo.mp.transaction.validator.parser.TransactionParser.parseLine(TransactionParser.java:49)
+	at uo.mp.transaction.validator.parser.TransactionParser.parse(TransactionParser.java:28)
+	at uo.mp.transaction.validator.file.TransactionLoader.load(TransactionLoader.java:21)
+	at uo.mp.transaction.TransactionProcessor.process(TransactionProcessor.java:19)
+	at uo.mp.Main.process(Main.java:36)
+	at uo.mp.Main.run(Main.java:23)
+	at uo.mp.Main.main(Main.java:18)
+Mon May 15 12:02:39 CEST 2023 EL campo numerioc en linea: 2, es incorrecto
+Mon May 15 12:02:39 CEST 2023 Tipo de cuenta desconocido en linea: 
+Mon May 15 12:02:39 CEST 2023 Tipo de cuenta desconocido en linea: mc;2018/05/06;6011170166891283388;50;20;Valid
+Mon May 15 12:02:39 CEST 2023 Tipo de cuenta desconocido en linea: mc;2018/05/07;30236299989594;4a5;30;Valid
+Mon May 15 12:02:39 CEST 2023 Tipo de cuenta desconocido en linea: mc;2018/05/08;30562647088387;30;Valid
+Mon May 15 12:02:39 CEST 2023 Tipo de cuenta desconocido en linea: 
+Mon May 15 12:02:39 CEST 2023 EL campo numerioc en linea: 3, es incorrecto
+Mon May 15 12:02:39 CEST 2023 La linea: 3 contine campos diferentes

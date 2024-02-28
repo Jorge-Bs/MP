@@ -1,0 +1,8 @@
+newspaper	La Nueva España	14	30
+newspaper	El Mundo	4	10
+magazine	Hola	14	30	MONTHLY
+magazine	PCWord	14	30	QUARTERLY
+magazine	Diez Minutos	4	10	WEEKELY
+magazine	El Mueble	4	10	BIMONTLY
+magazine	Muy Interesante	8	20	DIARY
+magazine	Quo	8	10	MONTLY

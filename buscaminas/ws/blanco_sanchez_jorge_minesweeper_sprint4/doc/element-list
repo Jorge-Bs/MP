@@ -1,0 +1,11 @@
+uo.mp.minesweeper.exception
+uo.mp.minesweeper.game
+uo.mp.minesweeper.game.board
+uo.mp.minesweeper.game.model.util
+uo.mp.minesweeper.game.square
+uo.mp.minesweeper.game.square.actions
+uo.mp.minesweeper.game.square.actions.blowup
+uo.mp.minesweeper.game.square.actions.clear
+uo.mp.minesweeper.game.square.square
+uo.mp.minesweeper.ranking
+uo.mp.minesweeper.session

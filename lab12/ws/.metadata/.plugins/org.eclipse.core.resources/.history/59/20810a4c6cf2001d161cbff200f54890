@@ -1,0 +1,19 @@
+package uo.mp.transaction.validator.serialize;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import uo.mp.transaction.model.Transaction;
+
+public class TransactionSerializer {
+	
+	
+	public List<String> serialize(List<Transaction> transactions){
+		List<String> lines = new ArrayList<>();
+		for(Transaction tra:transactions) {
+			lines.add(tra.serialize());
+		}
+		return lines;
+	}
+
+}

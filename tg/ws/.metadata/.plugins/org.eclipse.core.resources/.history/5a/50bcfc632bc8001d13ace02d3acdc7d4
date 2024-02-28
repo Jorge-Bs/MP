@@ -1,0 +1,94 @@
+package uo.mp.tg1.payments.model;
+
+import java.time.LocalDate;
+
+import uo.mp.tg1.ruralvia.PaymentGateway;
+import uo.mp.tg1.ruralvia.interfacerepositiory.Transaction;
+import uo.mp.util.check.ArgumentChecks;
+
+public class CreditCard extends Payments implements Transaction{
+	public static final String MERCHANT_ID="1111-22";
+	
+	private String creditNumber;
+	private int month;
+	private int year;
+	
+	
+	public CreditCard(String id,int amount,String creditCardNumber,int month,int year) {
+		setId(id);
+		setAmount(amount);
+		setValid(INVALID);
+		
+		setCreditCardNumber(creditNumber);
+		setMonth(month);
+		setYear(year);
+	}
+	
+	
+	
+	/**
+	 * Devuleve el valor de la tarjeta
+	 * @return creditNumber de tipo int
+	 */
+	public String getCreditCardNumber() {
+		return creditNumber;
+	}
+	
+	/**
+	 * Devuelve el valor de caducidad, el mes
+	 * @return month de caducidad
+	 */
+	public int getMonth() {
+		return month;
+	}
+	
+	/**
+	 * Devuelve el valor de caducidad, el año
+	 * @return year de caducidad
+	 */
+	public int getYear() {
+		return year;
+	}
+
+	/**
+	 * Establece el  numero de la tarjeta
+	 * @param creditNumber de tipo int
+	 */
+	private void setCreditCardNumber(String creditNumber) {
+		this.creditNumber = creditNumber;
+	}
+
+	/**
+	 * Establece el año de caducidad
+	 * @param month de caducidad
+	 */
+	private void setMonth(int month) {
+		ArgumentChecks.isTrue(month>0 && month<=12, "Numero de tarjeta invalido");
+		this.month = month;
+	}
+
+	/**
+	 * Establece el año de caducidad
+	 * @param year de caducidad
+	 */
+	private void setYear(int year) {
+		LocalDate date = LocalDate.now();
+		int actualYear= date.getYear();
+		ArgumentChecks.isTrue(year>=actualYear && year<actualYear+10,"año invalido");
+		this.year = year;
+	}
+
+	@Override
+	public void valid() {
+		if(this instanceof Transaction) {
+			boolean isValid=new PaymentGateway().isValid((Transaction) this)
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+}

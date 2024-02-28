@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\jorge\OneDrive - Universidad de Oviedo\mp\blanco_sanchez_jorge_lab02_task_game2048.zip"/>
+			<item value="C:\Users\jorge\OneDrive - Universidad de Oviedo\mp\lab\blanco_sanchez_jorge_lab02_task_game2048.zip"/>
+			<item value="C:\Users\jorge\OneDrive - Universidad de Oviedo\mp\lab\util23.zip"/>
+			<item value="C:\Users\jorge\OneDrive - Universidad de Oviedo\mp\lab\final_task_2.zip"/>
+			<item value="C:\Users\jorge\OneDrive - Universidad de Oviedo\mp\lab\save_task_2.zip"/>
+		</list>
+	</section>
+</section>

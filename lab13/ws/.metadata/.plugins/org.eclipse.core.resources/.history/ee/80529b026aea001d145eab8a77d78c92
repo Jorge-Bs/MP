@@ -1,0 +1,11 @@
+package uo.mp.numbers;
+
+public class Impares extends Thread{
+
+	private void printNumbers() {
+		for(int i=2;i<=100;i+=2) {
+			System.out.print(2+" ");
+		}
+		System.out.println();
+	}
+}

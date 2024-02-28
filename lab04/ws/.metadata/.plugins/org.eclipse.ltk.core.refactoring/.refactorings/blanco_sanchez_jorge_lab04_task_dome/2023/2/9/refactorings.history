@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;uo.mp.lab03.dome&apos; to &apos;uo.mp.lab04.dome&apos;&#x0D;&#x0A;- Original project: &apos;blanco_sanchez_jorge_lab03_task_dome&apos;&#x0D;&#x0A;- Original element: &apos;blanco_sanchez_jorge_lab03_task_dome/src/uo.mp.lab03.dome&apos;&#x0D;&#x0A;- Renamed element: &apos;blanco_sanchez_jorge_lab03_task_dome/src/uo.mp.lab04.dome&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;uo.mp.lab03.dome&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;uo.mp.lab03.dome" name="uo.mp.lab04.dome" qualified="false" references="true" stamp="1677601008114" textual="false" version="1.0"/>
+</session>

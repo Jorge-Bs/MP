@@ -1,0 +1,6 @@
+uo.mp.minesweeper.game
+uo.mp.minesweeper.game.model
+uo.mp.minesweeper.game.model.board
+uo.mp.minesweeper.game.model.square
+uo.mp.minesweeper.game.model.util
+uo.mp.minesweeper.game.ui

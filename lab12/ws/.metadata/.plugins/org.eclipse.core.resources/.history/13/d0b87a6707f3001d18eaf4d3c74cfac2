@@ -1,0 +1,77 @@
+package uo.mp.transaction.validator.parser;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import uo.mp.transaction.model.CreditCardTransaction;
+import uo.mp.transaction.model.CurrentAcountTransaction;
+import uo.mp.transaction.model.Transaction;
+import uo.mp.transaction.model.exception.InvalidLineFormatException;
+import uo.mp.transaction.model.exception.RepeatedTransactionException;
+import uo.mp.util.check.ArgumentChecks;
+import uo.mp.util.log.Logger;
+
+public class TransactionParser {
+	
+	
+	public static final String ACC = "acc";
+	public static final String CC = "cc";
+	private int line;
+	
+	public List<Transaction> parse(List<String> lines) throws RepeatedTransactionException{
+		this.line=0;
+		ArgumentChecks.isTrue(lines!=null, "Argumento Invalido");
+		List<Transaction> trans = new ArrayList<>();
+		Transaction object;
+		for(String line:lines) {
+			try {
+				object = parseLine(line);
+				checkInside(object,trans);
+				trans.add(object);
+				this.line++;
+			}catch(InvalidLineFormatException e) {
+				Logger.log(e.getMessage());
+			}
+		}
+		return trans;
+	}
+	
+	private void checkInside(Transaction object, List<Transaction> trans) throws RepeatedTransactionException {
+		if(trans.contains(object)) {
+			throw new RepeatedTransactionException("El fichero contiene dos transaciones iguales en linea: "+line);
+		}
+		
+	}
+
+	private Transaction parseLine(String line) throws InvalidLineFormatException{
+		String list[] = line.split(";");
+		switch(list[0]) {
+		case ACC: return parseAcount(list);
+		case CC: return parseCredit(list);
+		default:
+			throw new InvalidLineFormatException("Tipo de cuenta desconocido en linea: "+line);
+		}
+ 	}
+	
+	private Transaction parseAcount(String[] list) throws InvalidLineFormatException {
+		ArgumentChecks.isTrue(list!=null, "Parametro incorrecto");
+		ArgumentChecks.isTrue(list.length==6, "Campos incorrectos");
+		return new CurrentAcountTransaction(list[1],list[2],toDouble(list[4]),list[5],list[3]);
+	}
+	
+	
+	private double toDouble(String dob) throws InvalidLineFormatException {
+		try {
+			return Double.parseDouble(dob);
+		}catch (NumberFormatException e) {
+			throw new InvalidLineFormatException("EL campo numerioc en linea: "+line+", es incorrecto");
+		}
+	}
+	
+	private Transaction parseCredit(String[] list) throws InvalidLineFormatException {
+		ArgumentChecks.isTrue(list!=null, "Parametro incorrecto");
+		ArgumentChecks.isTrue(list.length==7, "Campos incorrectos");
+		return new CreditCardTransaction(list[1],list[2],list[3],
+				toDouble(list[4]),toDouble(list[5]),list[6]);
+	}
+}

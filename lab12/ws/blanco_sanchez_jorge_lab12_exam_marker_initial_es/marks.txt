@@ -1,0 +1,6 @@
+ID	20209	Mark	5.2
+ID	20210	Mark	3.9
+ID	20211	Mark	2.0
+ID	20213	Mark	3.0
+ID	20214	Mark	1.5
+ID	20215	Mark	2.4

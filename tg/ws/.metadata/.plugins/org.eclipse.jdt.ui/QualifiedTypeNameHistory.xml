@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.payments.model.Payments"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="uo.mp.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.paypal.PayPalAPI"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.ruralvia.interfacerepositiory.Transaction"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.ruralvia.PaymentGateway"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.payments.model.PayPal"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.payments.service.Retailer"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.payments.model.Cash"/>
+    <fullyQualifiedTypeName name="uo.mp.tg1.payments.model.CreditCard"/>
+</qualifiedTypeNameHistroy>

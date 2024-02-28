@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"uo.mp.minesweeper.exception"},{"l":"uo.mp.minesweeper.ranking.utiles.files"},{"l":"uo.mp.minesweeper.ranking.utiles.sort"},{"l":"uo.mp.minesweeper.session"}];updateSearchResults();

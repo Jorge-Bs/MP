@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="uo.mp.lab05.shapes.Rectangle"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.shapes.Circle"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.shapes.Colour"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.drawing.software.Canvas"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.shapes.Shapes"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.shapes.Triangle"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.drawing.interfacerepository.Drawable"/>
+    <fullyQualifiedTypeName name="uo.mp.lab04.dome.model.plataform.Plataform"/>
+    <fullyQualifiedTypeName name="java.io.PrintStream"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.dome.model.Borrowable"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.dome.service.MediaLibrary"/>
+    <fullyQualifiedTypeName name="uo.mp.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.dome.model.Videogame"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.dome.model.Item"/>
+    <fullyQualifiedTypeName name="uo.mp.lab05.dome.model.Book"/>
+</qualifiedTypeNameHistroy>

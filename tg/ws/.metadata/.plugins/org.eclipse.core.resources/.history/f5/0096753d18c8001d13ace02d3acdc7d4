@@ -1,0 +1,11 @@
+package uo.mp.tg1.payments.model;
+
+public class CreditCar {
+	public static final String MERCHANT_ID="1111-22";
+	
+	private int creditNumber;
+	private int month;
+	private int year;
+	
+	
+}

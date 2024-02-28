@@ -1,0 +1,10 @@
+uo.mp.lab11.marker
+uo.mp.lab11.marker.model
+uo.mp.lab11.marker.model.question
+uo.mp.lab11.marker.parser
+uo.mp.lab11.marker.parser.questionparser
+uo.mp.lab11.marker.service
+uo.mp.lab11.marker.service.exammarker
+uo.mp.lab11.marker.service.sort
+uo.mp.lab11.marker.simulator
+uo.mp.lab11.marker.simulator.exception

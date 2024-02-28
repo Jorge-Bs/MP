@@ -1,0 +1,28 @@
+package uo.mp.transaction.model;
+
+public class CreditCardTransaction extends Transaction {
+	
+	private String dueDate;
+	private double maxAmount;
+
+	public CreditCardTransaction(String date, String number, String dueDate,double maxAmount,
+			double amount, String description) {
+		
+		super(date, number, amount, description);
+		setDueDate(dueDate);
+		setMaxAmount(maxAmount);
+	}
+
+	@Override
+	public void validate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String serialize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

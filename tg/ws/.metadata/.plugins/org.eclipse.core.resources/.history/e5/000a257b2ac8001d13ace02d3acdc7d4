@@ -1,0 +1,5 @@
+package uo.mp.tg1.ruralvia.interfacerepositiory;
+
+public interface Transaction {
+
+}

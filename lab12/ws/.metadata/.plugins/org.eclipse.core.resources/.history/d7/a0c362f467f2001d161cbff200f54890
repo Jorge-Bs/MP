@@ -1,0 +1,34 @@
+package uo.mp.transaction.validator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import uo.mp.transaction.model.Transaction;
+import uo.mp.transaction.model.exception.InvalidTransactionException;
+import uo.mp.util.check.ArgumentChecks;
+
+public class TransactionValidator {
+	
+	private  List<Transaction> trxs = new ArrayList<>();
+	private  List<Transaction> invalidTransactions = new ArrayList<>();
+	private  List<Transaction> validTransactions = new ArrayList<>();
+
+	public void add(List<Transaction> trxs) {
+		ArgumentChecks.isTrue(trxs!=null,"EL parametro no puede ser null");
+	}
+
+	public void validate() {
+		for()
+	}
+
+	public List<Transaction> getInvalidTransactions() {
+		// TODO 
+		return null;
+	}
+
+	public List<Transaction> getValidTransactions() {
+		// TODO 
+		return null;
+	}
+
+}

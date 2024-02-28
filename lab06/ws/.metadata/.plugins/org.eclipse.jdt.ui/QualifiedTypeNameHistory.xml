@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="uo.mp.s6.greenhouse.controllers.devicescanner.DeviceScanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.CharSequence"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="uo.mp.s6.greenhouse.controllers.devicescanner.Checkable"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="uo.mp.s6.greenhouse.controllers.HumidityController.Status"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="uo.mp.s6.greenhouse.controllers.HumidityController"/>
+    <fullyQualifiedTypeName name="uo.mp.s6.greenhouse.sensors.HumiditySensor"/>
+</qualifiedTypeNameHistroy>

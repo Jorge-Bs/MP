@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="java.lang.Enum"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.validator.TransactionValidator"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.exception.InvalidTransactionException"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="uo.mp.util.check.ArgumentChecks"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.util.Lhun"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.util.IBAN"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.CreditCardTransaction"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.CurrentAcountTransaction"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.Transaction"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.exception.RepeatedTransactionException"/>
+    <fullyQualifiedTypeName name="uo.mp.util.log.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="uo.mp.transaction.model.exception.InvalidLineFormatException"/>
+</qualifiedTypeNameHistroy>

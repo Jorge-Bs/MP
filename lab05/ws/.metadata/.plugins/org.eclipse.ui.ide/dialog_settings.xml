@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\jorge\OneDrive\Escritorio\uo\mp\lab04\blanco_sanchez_jorge_lab04_l8_task\blanco_sanchez_jorge_lab04_task.zip"/>
+			<item value="C:\Users\jorge\OneDrive\Escritorio\uo\mp\lab05\Material_Sesion05_ES\students_lab05_shapes.zip"/>
+		</list>
+	</section>
+</section>

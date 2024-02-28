@@ -1,0 +1,108 @@
+package uo.mp.transaction.model;
+
+import uo.mp.transaction.model.util.Lhun;
+
+public class CreditCardTransaction extends Transaction {
+	
+	public static final String TYPE="cc";
+	private String dueDate;
+	private double maxAmount;
+
+	public CreditCardTransaction(String date, String number, String dueDate,double maxAmount,
+			double amount, String description) {
+		
+		super(date, number, amount, description);
+		setDueDate(dueDate);
+		setMaxAmount(maxAmount);
+	}
+
+	@Override
+	public void validate() {
+		validateDates(getDate(),getDueDate());
+		validateOperation(getAmount(),getMaxAmount());
+		validateNumber(getNumber());
+	}
+
+	
+	private void validateNumber(String number) {
+		if(!Lhun.isValid(number)){
+			super.addFault("El numero de tarjeta: "+number+", es invalido");
+		}
+		
+	}
+
+	private void validateOperation(double amount, double maxAmount) {
+		if(amount> maxAmount) {
+			super.addFault("Sobre pasa el limite la operacion:"+amount+", el maximo permitido es:"+maxAmount);
+		}
+		
+	}
+
+	private void validateDates(String date, String dueDate) {
+		if((date.compareTo(dueDate))>1) {
+			super.addFault("La tarjeta está caducada");
+		}
+		
+	}
+
+	@Override
+	public String serialize() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(TYPE+";");
+		sb.append(getDate()+";");
+		sb.append(getNumber()+";");
+		sb.append(getDueDate()+";");
+		sb.append(getMaxAmount()+";");
+		sb.append(getAmount()+";");
+		sb.append(getDescription());
+		return sb.toString();
+	}
+
+	private void setDueDate(String dueDate) {
+		this.dueDate = dueDate;
+	}
+
+	private void setMaxAmount(double maxAmount) {
+		this.maxAmount = maxAmount;
+	}
+
+	@Override
+	public Transaction clone() {
+		return new CreditCardTransaction(getDate(), getNumber()
+					, getDueDate(), getMaxAmount(), getAmount(),getDescription());
+	}
+
+	private String getDueDate() {
+		return dueDate;
+	}
+
+	private double getMaxAmount() {
+		return maxAmount;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("CreditCardTransaction [date=");
+		builder.append(getDate());
+		builder.append(", maxAmount=");
+		builder.append(maxAmount);
+		builder.append(", getNumber()=");
+		builder.append(getNumber());
+		builder.append(", getAmount()=");
+		builder.append(getAmount());
+		builder.append(", getDescription()=");
+		builder.append(getDescription());
+		builder.append(", getFaults()=");
+		builder.append(getFaults());
+		builder.append(", getDate()=");
+		builder.append(getDate());
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
+	
+	
+
+}

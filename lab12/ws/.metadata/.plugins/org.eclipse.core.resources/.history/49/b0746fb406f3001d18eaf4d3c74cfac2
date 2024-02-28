@@ -1,0 +1,64 @@
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:04:40 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:52 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:53 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:53 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:53 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:53 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:53 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:08:53 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:46 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:47 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:47 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:47 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:47 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:47 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:14:47 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:18:31 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 10:19:29 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:29:41 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:32:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:23 CEST 2023 Tipo de cuenta desconocido
+Mon May 15 11:55:39 CEST 2023 uo.mp.transaction.model.exception.RepeatedTransactionException: El fichero contiene dos transaciones iguales
+	at uo.mp.transaction.validator.parser.TransactionParser.checkInside(TransactionParser.java:38)
+	at uo.mp.transaction.validator.parser.TransactionParser.parse(TransactionParser.java:27)
+	at uo.mp.transaction.validator.file.TransactionLoader.load(TransactionLoader.java:21)
+	at uo.mp.transaction.TransactionProcessor.process(TransactionProcessor.java:19)
+	at uo.mp.Main.process(Main.java:36)
+	at uo.mp.Main.run(Main.java:23)
+	at uo.mp.Main.main(Main.java:18)

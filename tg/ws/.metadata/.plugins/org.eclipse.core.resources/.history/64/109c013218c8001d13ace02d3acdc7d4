@@ -1,0 +1,72 @@
+package uo.mp.tg1.payments.model;
+
+import uo.mp.util.check.ArgumentChecks;
+
+public class Payments {
+	public static final boolean VALID=true;
+	public static final boolean INVALID=!VALID;
+
+	private String id;
+	private double amount;
+	private boolean valid;
+	
+	
+	
+	/**
+	 * Devuelve el id
+	 * @return id 
+	 */
+	public String getId() {
+		return id;
+	}
+	
+	/**
+	 * Devuelve la cantidad de dinero asociado al pago
+	 * @return amount de tipo double
+	 */
+	public double getAmount() {
+		return amount;
+	}
+	
+	/**
+	 * Devuelve si un pago es valido o no
+	 * @return true si es valido
+	 */
+	public boolean isValid() {
+		return valid;
+	}
+	
+	/**
+	 * Establece el id
+	 * @param id de tipo String
+	 */
+	void setId(String id) {
+		ArgumentChecks.isTrue(id!=null,"id invalido");
+		ArgumentChecks.isTrue(!id.isBlank(),"id invalido");
+		this.id = id;
+	}
+	
+	/**
+	 * Establece el precio
+	 * @param amount de tipo double
+	 */
+	void setAmount(double amount) {
+		ArgumentChecks.isTrue(amount>=0,"cantidad invalida");
+		this.amount = amount;
+	}
+	
+	
+	/**
+	 * Establece la valided del pago
+	 * @param valid de tipo boolean, true si es valido(VALID), false en caso contraio(INVALID)
+	 */
+	void setValid(boolean valid) {
+		this.valid = valid;
+	}
+	
+	/**
+	 * VAlida los pago
+	 */
+	public abstract void valid();
+	
+}

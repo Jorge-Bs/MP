@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"uo.mp2223.util.collections"},{"l":"uo.mp2223.util.collections.impl"},{"l":"uo.mp2223.util.collections.pl8"}];updateSearchResults();

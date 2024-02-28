@@ -1,0 +1,51 @@
+package uo.mp.transaction.validator.parser;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import uo.mp.transaction.model.CurrentAcountTransaction;
+import uo.mp.transaction.model.Transaction;
+import uo.mp.transaction.model.exception.InvalidLineFormatException;
+import uo.mp.util.check.ArgumentChecks;
+import uo.mp.util.log.Logger;
+
+public class TransactionParser {
+	
+	
+	public static final String AC = "ac";
+	public static final String CC = "cc";
+	
+	public List<Transaction> parse(List<String> lines){
+		ArgumentChecks.isTrue(lines!=null, "Argumento Invalido");
+		List<Transaction> trans = new ArrayList<>();
+		for(String line:lines) {
+			try {
+				trans.add(parseLine(line));
+			}catch(InvalidLineFormatException e) {
+				Logger.log(e.getMessage());
+			}
+		}
+		
+	}
+	
+	private Transaction parseLine(String line) {
+		String list[] = line.split(";");
+		switch(list[0]) {
+		case AC: return parseAcount(list);
+		case CC: return parseCredit(list);
+		default:
+			throw new InvalidLineFormatException("Tipo de cuenta desconocido");
+		}
+ 	}
+	
+	private Transaction parseAcount(String[] list) {
+		ArgumentChecks.isTrue(list!=null, "Parametro incorrecto");
+		ArgumentChecks.isTrue(list.length==6, "Campos incorrectos");
+		return new CurrentAcountTransaction(list[1],list[2],toDouble(list[4]),list[5],toType());
+	}
+	
+	
+	private double toDouble(String dob) {
+		return Double.parseDouble(dob);
+	}
+}

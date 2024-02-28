@@ -1,0 +1,77 @@
+package uo.mp.tg1.payments.model;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+import uo.mp.util.check.ArgumentChecks;
+
+public class CreditCar extends Payments{
+	public static final String MERCHANT_ID="1111-22";
+	
+	private int creditNumber;
+	private int month;
+	private int year;
+	
+	
+	
+	
+	
+	
+	/**
+	 * Devuleve el valor de la tarjeta
+	 * @return creditNumber de tipo int
+	 */
+	public int getCreditNumber() {
+		return creditNumber;
+	}
+	
+	/**
+	 * Devuelve el valor de caducidad, el mes
+	 * @return month de caducidad
+	 */
+	public int getMonth() {
+		return month;
+	}
+	
+	/**
+	 * Devuelve el valor de caducidad, el año
+	 * @return year de caducidad
+	 */
+	public int getYear() {
+		return year;
+	}
+
+	/**
+	 * Establece el  numero de la tarjeta
+	 * @param creditNumber de tipo int
+	 */
+	void setCreditNumber(int creditNumber) {
+		this.creditNumber = creditNumber;
+	}
+
+	/**
+	 * Establece el año de caducidad
+	 * @param month de caducidad
+	 */
+	void setMonth(int month) {
+		ArgumentChecks.isTrue(month>0 && month<=12, "Numero de tarjeta invalido");
+		this.month = month;
+	}
+
+	/**
+	 * Establece el año de caducidad
+	 * @param year de caducidad
+	 */
+	void setYear(int year) {
+		LocalDate date = LocalDate.now();
+		int actualYear= date.getYear();
+		ArgumentChecks.isTrue(year>=actualYear && year<actualYear+20,"año invalido");
+		this.year = year;
+	}
+	
+	
+	
+	
+	
+	
+}

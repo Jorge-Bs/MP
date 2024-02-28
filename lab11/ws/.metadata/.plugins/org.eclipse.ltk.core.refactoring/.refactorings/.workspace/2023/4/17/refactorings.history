@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;lab11_exam_marker_initial_es&apos; to &apos;blanco_sanchez_jorge_lab11_exam_marker_initial_es&apos;&#x0D;&#x0A;- Original element: &apos;lab11_exam_marker_initial_es&apos;&#x0D;&#x0A;- Renamed element: &apos;lab11_exam_marker_initial_es&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;lab11_exam_marker_initial_es&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=lab11_exam_marker_initial_es" name="blanco_sanchez_jorge_lab11_exam_marker_initial_es" references="true" stamp="1682440862126" version="1.0"/>
+</session>

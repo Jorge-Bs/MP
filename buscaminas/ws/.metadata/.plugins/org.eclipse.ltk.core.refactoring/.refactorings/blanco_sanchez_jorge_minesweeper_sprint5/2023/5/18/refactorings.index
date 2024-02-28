@@ -1,0 +1,7 @@
+1683473157405	Extract method 'createWriter'
+1683476409632	Extract method 'writer'
+1683476475608	Extract method 'reader'
+1683476625104	Extract method 'createReader'
+1683476986218	Rename type 'RankingSerializer'
+1683477010956	Rename type 'RankingWrite'
+1683477260349	Rename package 'uo.mp.minesweeper.ranking.serializer'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="112"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="242"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="118"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<section name="expressionHistory">
+	</section>
+	<section name="conditionHistory">
+		<item key="conditionHistoryEntry_0" value="i==1 &amp;&amp; j==2"/>
+		<item key="conditionHistoryEntryCount" value="6"/>
+		<item key="conditionHistoryEntry_1" value="i==3"/>
+		<item key="conditionHistoryEntry_2" value="j==3"/>
+		<item key="conditionHistoryEntry_3" value="i==1"/>
+		<item key="conditionHistoryEntry_4" value="j==8 &amp;&amp; i==8"/>
+		<item key="conditionHistoryEntry_5" value="j==8"/>
+	</section>
+</section>

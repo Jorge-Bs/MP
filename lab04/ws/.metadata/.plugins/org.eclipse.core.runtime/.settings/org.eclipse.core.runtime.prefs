@@ -1,0 +1,9 @@
+content-types/org.eclipse.core.runtime.text/charset=ISO-8859-1
+content-types/org.eclipse.core.runtime.xml/charset=ISO-8859-1
+content-types/org.eclipse.jdt.core.JARManifest/charset=ISO-8859-1
+content-types/org.eclipse.jdt.core.javaProperties/charset=ISO-8859-1
+content-types/org.eclipse.jdt.core.javaSource/charset=ISO-8859-1
+content-types/org.eclipse.ltk.core.refactoring.refactoringIndex/charset=ISO-8859-1
+content-types/org.eclipse.m2e.core.pomFile/charset=ISO-8859-1
+content-types/org.eclipse.wst.xml.core.xmlsource/charset=ISO-8859-1
+eclipse.preferences.version=1

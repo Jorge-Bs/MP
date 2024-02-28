@@ -1,0 +1,73 @@
+package uo.mp.transaction.model;
+
+import uo.mp.transaction.model.util.Lhun;
+
+public class CreditCardTransaction extends Transaction {
+	
+	private String dueDate;
+	private double maxAmount;
+
+	public CreditCardTransaction(String date, String number, String dueDate,double maxAmount,
+			double amount, String description) {
+		
+		super(date, number, amount, description);
+		setDueDate(dueDate);
+		setMaxAmount(maxAmount);
+	}
+
+	@Override
+	public void validate() {
+		validateDates(getDate(),getDueDate());
+		validateOperation(getAmount(),getMaxAmount());
+		validateNumber(getNumber());
+	}
+
+	
+	private void validateNumber(String number) {
+		if(!Lhun.isValid(number)){
+			super.addFault("El numero de tarjeta: "+number+", es invalido");
+		}
+		
+	}
+
+	private void validateOperation(double amount, double maxAmount) {
+		if(amount> maxAmount) {
+			super.addFault("Sobre pasa el limite la operacion:"+amount);
+		}
+		
+	}
+
+	private void validateDates(String date, String dueDate2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String serialize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private void setDueDate(String dueDate) {
+		this.dueDate = dueDate;
+	}
+
+	private void setMaxAmount(double maxAmount) {
+		this.maxAmount = maxAmount;
+	}
+
+	@Override
+	public Transaction clone() {
+		return new CreditCardTransaction(getDate(), getNumber()
+					, getDueDate(), getMaxAmount(), getAmount(),getDescription());
+	}
+
+	private String getDueDate() {
+		return dueDate;
+	}
+
+	private double getMaxAmount() {
+		return maxAmount;
+	}
+
+}

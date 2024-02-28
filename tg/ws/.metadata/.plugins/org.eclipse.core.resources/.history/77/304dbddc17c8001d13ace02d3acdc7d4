@@ -1,0 +1,12 @@
+package uo.mp.tg1.payments.service;
+
+import java.util.List;
+
+import uo.mp.tg1.payments.model.Payments;
+
+public class Retailer {
+
+	private List<Payments> pay;
+	
+	
+}

@@ -1,0 +1,29 @@
+package uo.mp.tg1.service.retailer;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import uo.mp.tg1.payments.service.Retailer;
+
+public class GetTotalSalesTest {
+	private Retailer rt;
+
+	@BeforeEach
+	void setUp() throws Exception {
+		rt= new Retailer();
+	}
+
+	
+	/**
+	 * Given: un retailer vacio 
+	 * When: se invoca al metodo
+	 * Then: devuelve 0
+	 */
+	@Test
+	public void test() {
+		assertEquals(0,rt.getTotalSales());
+	}
+
+}
